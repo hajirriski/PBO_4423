@@ -17,7 +17,7 @@ public class Main {
         gameku.hapusGame();
         while (true) {
             Scanner input = new Scanner(System.in);
-            System.out.print("Masukan game yang dicari (isikan x saat selesai) = ");
+            System.out.print("Masukan game yang dicari (isikan x jika selesai) = ");
             String namaGame = input.nextLine();
             if(namaGame.equals("x")) {
                 break;
