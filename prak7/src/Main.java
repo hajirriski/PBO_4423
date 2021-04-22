@@ -47,9 +47,9 @@ public class Main {
             System.out.println("Antrian sudah penuh, tidak bisa menambah antrian");
             return;
         }
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Masukan Nama = ");
-        String name = scanner.next();
+        String name = input.next();
         queue.add(name);
         System.out.println(name + " Berhasil ditambahkan ke antrian");
     }
@@ -66,9 +66,9 @@ public class Main {
             System.out.println("Antrian masih kosong");
             return;
         }
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Masukan nama = ");
-        String name = scanner.next();
+        String name = input.next();
         if(!queue.contains(name)) {
             System.out.println(name + " Tidak ditemukan dalam antrian");
         }
