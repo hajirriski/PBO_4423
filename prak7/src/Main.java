@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Antrian {
+public class Main {
     private static  int queueCapacity = 10;
     private static Queue<String> queue = new LinkedList<>();
     public static void main(String[] args) {
