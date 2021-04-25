@@ -15,7 +15,8 @@ public class StackKu {
     public String convStrToStack(String inputan){
         String cekInputan = "y";
         int index = inputan.indexOf("=");
-        if (index == -1){
+        int index2 = inputan.indexOf("1");
+        if (index == -1 || index2 == -1){
             System.out.println(inputan + " adalah persamaan yang tidak valid");
             cekInputan = "x";
         }
