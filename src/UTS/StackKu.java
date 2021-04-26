@@ -41,12 +41,16 @@ public class StackKu {
         String o = "=1";
         char equal = o.charAt(0);
         char one = o.charAt(1);
+        char spasi = ' ';
         int counter = 0;
         String cek = "t";
         kiri = stackAngka;
         for (int j = 0; j < stackAngka.size();j++){
             if (kiri.peek() == one){
                 kanan.push(kiri.pop());
+            }
+            if (kiri.peek() == spasi){
+                kiri.pop();
             }
             if (kiri.peek() == equal){
                 kiri.pop();
