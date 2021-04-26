@@ -8,7 +8,7 @@ public class StackKu {
     Stack<Character> kanan = new Stack<>();
     public String Input_Stack() {
         Scanner input = new Scanner(System.in);
-        System.out.print("Masukkan input :");
+        System.out.print("Masukkan persamaan tanpa spasi :");
         String inputan = input.next();
         return inputan;
     }
